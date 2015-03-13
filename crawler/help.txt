@@ -1,0 +1,22 @@
+欢迎使用xx爬虫！！
+参数说明:
+	-h: 查看程序运行帮助
+	-t: 手动设置爬行目标
+	-n: 指定并发线程数(默认10个)
+	-o: 指定图片存储在哪个目录(默认当前运行目录的pics目录下)
+	-l: 限制爬多少图片就结束(默认不限制)
+	
+EXAMPLES:
+	1.查看帮助文档
+  python Crawler.py  -h  
+	2.指定并发线程数为: 20 
+  python Crawler.py  -n  20
+	3.指定图片存放在F:\www\pics目录下
+  python Crawler.py  -o  "F:\www\pics"
+	4.指定图片最大爬行数量为500
+  python Crawler.py  -l  500
+  	5.手动设置爬行目标
+  python Crawler.py  -t  http://www.baidu.com/
+  
+注:以上是可选参数,可以混合使用的.
+  
