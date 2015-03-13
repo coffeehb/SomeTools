@@ -3,7 +3,7 @@ import urllib2
 import urllib
 import cookielib
 #先登陆页面
-login_page = "http://kcxt.cdu.edu.cn/eol/homepage/common/login.jsp"
+login_page = "http://******.edu.cn/eol/homepage/common/login.jsp"
 
 LogTxt = "E:\user.txt"
 #定义一个登陆检查函数
@@ -15,7 +15,7 @@ def renrenBrower():
         #填充请求头
         opener.addheaders = [('User-agent','Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)')]
         #登陆信息
-        data = urllib.urlencode({"IPT_LOGINUSERNAME":"201110421212","IPT_LOGINPASSWORD":"lc1991hou"})
+        data = urllib.urlencode({"IPT_LOGINUSERNAME":"20****1212","IPT_LOGINPASSWORD":"c****ou"})
         #以post的方法访问登陆页面，访问之后cookieJar会自定保存cookie
         f = opener.open(login_page,data)
 #         data= f.read()
@@ -24,7 +24,7 @@ def renrenBrower():
         #以带cookie的方式访问页面
         val = 50000
 #         
-#         Url = "http://kcxt.cdu.edu.cn/eol/popups/viewstudent_info.jsp?SID=50000&from=welcomepage";
+#         Url = "http://******.edu.cn/eol/popups/viewstudent_info.jsp?SID=50000&from=welcomepage";
 #         print Url 
 #         op=opener.open(Url)
 #         #读取页面源码
@@ -35,7 +35,7 @@ def renrenBrower():
 #         name = unicode("杨雪雯","GBK")
         for val in range(27097,30000):
             
-            Url = "http://kcxt.cdu.edu.cn/eol/popups/viewstudent_info.jsp?SID="+str(val)+"&from=welcomepage";
+            Url = "http://k******u.edu.cn/eol/popups/viewstudent_info.jsp?SID="+str(val)+"&from=welcomepage";
             op=opener.open(Url)
             #读取页面源码
             data= op.read()
