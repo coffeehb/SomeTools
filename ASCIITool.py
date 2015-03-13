@@ -1,7 +1,7 @@
 #encoding=GBK
 '''
 Created on 2014年9月2日
-@author: Long-Cong
+@author: cf_hb
 '''
 import sys
 print '''

@@ -2,7 +2,7 @@
 '''
 Created on 2014Äê9ÔÂ26ÈÕ
 
-@author: Long-Cong
+@author: cf_hb
 '''
 import requests
 

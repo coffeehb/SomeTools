@@ -27,7 +27,7 @@ def GetWeather(city):
     try:
         LEVL = {'0':'优','1':'良','2':'中等','3':'中等','4':'不健康','5':'不健康','6':'有毒害'}
         
-        URL = 'http://api.map.baidu.com/telematics/v3/weather?location='+city+'&output=json&ak=xYnaK22d56Fl6rONI31ByzSw'
+        URL = 'http://api.map.baidu.com/telematics/v3/weather?location='+city+'&output=json&ak=xYnaK******zSw'
         reslut = urllib2.urlopen(URL).read() 
         reslut = reslut.decode('UTF-8')
         jsonObject = json.loads(reslut)['results']

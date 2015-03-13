@@ -23,7 +23,7 @@ class CloudFlare:
                             +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                             + thx                       :Barrett                      +
                             + 2014-6-24  modify By      :cf_hb                        +
-                            + My Blog                   :hope.iustudio.cc             +
+                            + My Blog                   :coffee.ostrich.cc             +
                             + tips  :                                                 +
                             +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                   '''
